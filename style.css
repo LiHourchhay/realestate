@@ -1,3 +1,4 @@
+Sokphaphat Siem, [10/6/2023 1:47 PM]
 body {
     margin: 0;
     font-family: var(--bs-font-sans-serif);
@@ -5,12 +6,13 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #f6fbff;
-    background-color: #808080;
+    background-color: #000000;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
 section{
-    margin: 2.3rem;
+    margin: 5rem;
+    margin-bottom: 5rem;
 }
 /* -----------NAVBAR--------------- */
 
@@ -141,6 +143,7 @@ ol, ul {
     padding: 30px 0;
 }
 #services p{
+
    
 }
 .services-list {
@@ -226,6 +229,7 @@ ol, ul {
     display: inline-block
 }
 
+Sokphaphat Siem, [10/6/2023 1:47 PM]
 .btn.btn3 {
     background-color: rgb(218, 205, 205);
     margin-top: 10px;
@@ -279,7 +283,7 @@ form input,form textarea {
     background-color: #000000!important;
 }
 .text-light {
-    color: #000000!important;
+    color: #f9f6f6!important;
 }
 .text-center {
     text-align: center!important;
@@ -289,30 +293,51 @@ form input,form textarea {
 }
 }
 /* ------CARD----------- */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #0f0c0c;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card{
+    color:rgb(253, 243, 243);
+    
+}
 
 .card-service{
     margin: 0 auto;
-    background-color:  rgb(255, 248, 234);
     width: 100%;
     text-align: center;
     border-radius: 2rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 1rem;
+    
 }
+
 .card h5{
     font-weight: 500;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
 }
-.card-img-top{
-    width: 5rem;
-    margin-top: 1rem;
-}
-.card{
-    align-items: center;
-    justify-content: center;
-}
-.card-body i{
-    padding-left: 2rem;
-    /* margin-left: 2px */
 
+.card-service span  {
+    font-size: 50px;
+}
+
+.d-block{
+    height: 100vh;
+}
+
+.sub-title{
+    text-align: center;
+    margin-top: 8rem;
+    /* margin-bottom: ; */
+}
+
+#team{
+    margin-top: 20px;
 }
