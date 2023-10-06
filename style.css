@@ -294,7 +294,7 @@ form input,form textarea {
 .card {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-width: 0;
     word-wrap: break-word;
     background-color: #0f0c0c;
