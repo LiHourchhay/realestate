@@ -303,3 +303,29 @@ form input,form textarea {
 .card{
     color:rgb(253, 243, 243);
 }
+.card-service{
+    margin: 0 auto;
+    background-color:  rgb(255, 248, 234);
+    width: 100%;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card h5{
+    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.card-img-top{
+    width: 5rem;
+    margin-top: 1rem;
+}
+.card{
+    align-items: center;
+    justify-content: center;
+}
+.card-body i{
+    padding-left: 2rem;
+    /* margin-left: 2px */
+
+}
